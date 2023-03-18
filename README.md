@@ -1,8 +1,8 @@
-# POS_Tagger
+# **POS_Tagger**
 
-Neural POS Tagging
 Designing, implementation and training a neural sequence model (RNN, LSTM, GRU, etc.) of your choice to (tokenize and) tag a given sentence with the correct part-of-speech tags. For example, given the input
 
+**`example`**
 Mary had a little lamb
 your model should output
 Mary    NOUN
@@ -13,7 +13,7 @@ lamb    NOUN
 Note that the part-of-speech tag is separated from each word by a tab \t character.
 
 
-Dataset
+# **Dataset**
 
 Used the Universal Dependencies dataset, downloadable here. We recommend the
 files located at ud-treebanks-v2.11/UD_English-Atis/en_atis-ud-{train,dev,test}.conllu. Use the first, second and fourth columns only (word index, lowercase word, and
