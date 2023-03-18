@@ -4,12 +4,19 @@ Designing, implementation and training a neural sequence model (RNN, LSTM, GRU, 
 
 **`example`**
 Mary had a little lamb
+
 your model should output
+
 Mary    NOUN
+
 had VERB
+
 a   DET
+
 little  ADJ
+
 lamb    NOUN
+
 Note that the part-of-speech tag is separated from each word by a tab \t character.
 
 
